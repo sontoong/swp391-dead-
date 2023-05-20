@@ -1,0 +1,11 @@
+.About {
+    text-align: center;
+    background-color: rgb(231, 76, 60);
+    margin-right: 2rem;
+    margin-left: 3rem;
+    border-radius: 2rem;
+    padding: 2rem;
+    font-family: cursive;
+    box-shadow: rgba(180, 81, 81, 0.68) 10px 10px;
+    color: white;
+}

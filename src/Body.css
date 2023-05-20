@@ -1,0 +1,13 @@
+.Body{
+    background-color: rgb(129, 126, 255);
+    padding: 2rem;
+}
+
+.InnerBody{
+    margin: 2rem;
+    background-color: rgba(95, 93, 193, 0.578);
+    border-radius: 2rem;
+    padding-top: 5rem;
+    padding-bottom: 5rem;
+}
+

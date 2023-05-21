@@ -1,0 +1,62 @@
+.footer{
+    display: flex;
+    justify-content: space-evenly;
+    background-color: rgb(129, 126, 255);
+    margin-bottom: 0;
+    padding-bottom: 2rem;
+    padding-top: 1.5rem;
+    padding-right: 9rem;
+}
+
+.contact-icons{
+    width: 40px;
+    height: 40px;
+    border-radius: 10px;
+}
+.icons a{
+    margin-left: 1rem;
+}
+.location{
+    margin-right: 2.8rem;
+    margin-bottom: 1rem;
+}
+.number{
+    margin-right: 12rem;
+    margin-bottom: 1rem;
+}
+.email{
+    margin-right: 7rem;
+}
+.website{
+    margin-right: 0.7rem;
+}
+h2{
+    color: white;
+    margin-right: 1rem;
+}
+.website-link{
+    font-size: 19px;
+    margin-left: 0rem;
+    margin-right: 5rem;
+}
+.footer-content{
+    color: white;
+    font-family: cursive;
+    font-size: 19px;
+}
+.image-icon{
+    margin-top: 1.3rem;
+    margin-right: 0.5rem;
+}
+.content{
+    display: flex;
+    margin-left: 5rem;
+}
+.website-link :hover{
+    color: rgb(25, 196, 205);
+}
+.contact-icons :hover{
+    width: 50px;
+    height: 50px;
+    border-radius: 10px;
+}

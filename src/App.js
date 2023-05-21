@@ -6,7 +6,7 @@ import Menu from './components/menuBar/Menu'
 function App() {
   return (
     <div className='App'>
-      <Header />
+      <Header/>
       <Menu/>
     </div>
   );

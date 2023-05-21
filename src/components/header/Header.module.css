@@ -2,16 +2,17 @@
     display: flex;
     list-style: none;
     justify-content: space-evenly;
-    padding: 1.2rem 5rem 0.9rem 4.2rem;
+    padding: 1.8rem 5rem 1.5rem 0rem;
     background-color: rgb(129, 126, 255);
     margin-top: 0;
     margin-bottom: 0;
     max-width: 100%;
   }
   .header img{
-    width: 5rem;
-    height: 5rem;
+    width: 10rem;
+    height: 10rem;
     border-radius: 50%;
+    margin-left: 9rem;
   }
   .shopping-cart-icon{
     margin-left: 0%;
@@ -19,11 +20,11 @@
   .search-bar{
     display: flex;
     flex-direction: row;
-    height: 27px;
-    margin: 1.5rem 5rem 0rem 14rem;
+    height: 3rem;
+    margin: 2.6rem 5rem 0rem 14rem;
   }
   .search-box{
-    padding-right: 15rem;
+    padding-right: 40rem;
     padding-left: 6px;
     padding-top: 0.5rem;
     padding-bottom: 0.5rem;
@@ -34,15 +35,14 @@
   .search-icon{
     border-top-right-radius: 5px;
     border-bottom-right-radius: 5px;
-    border: 1.5px solid black;
+    border: 1.5px solid black
   }
   .login-signup{
-    margin-top: 1.5rem;
+    margin-top: 2.5rem;
     margin-right: 1.5rem;
     margin-left: 10rem;
   }
   .shopping-cart-icon{
-    margin-top: 1.5rem;
-
+    margin-top: 2.5rem;
+    margin-right: 4rem;
   }
-  

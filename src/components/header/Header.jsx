@@ -15,17 +15,18 @@ const Header = () => {
           <li className={styles["search-bar"]}>
             <input type="text" placeholder="Search" className={styles["search-box"]}/>
             <button className={styles["search-icon"]}>
-              <SearchIcon sx={{ width:"14px", height:"15px", padding:"1px 0px"}} />
+              <SearchIcon sx={{ width:"35px", height:"15px", padding:"1px 0px"}} />
             </button>
           </li>
           <li className={styles["login-signup"]}>
             <a href="#login&signup" alt="">
-              <AccountCircleIcon />
+              <AccountCircleIcon sx={{ fontSize: 40 }} />
             </a>
           </li>
           <li className={styles["shopping-cart-icon"]}>
             <a href="#shoppingcarticon" alt="">
-              <ShoppingCartIcon sx={{ color: "white" }} />
+            <ShoppingCartIcon sx={{ fontSize: 40 }} />
+
             </a>
           </li>
         </ul>

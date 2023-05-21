@@ -1,0 +1,44 @@
+.header{
+    display: flex;
+    list-style: none;
+    padding: 1.5% 0% 1% 5.4%;
+    background-color: rgb(129, 126, 255);
+    margin-top: 0px;
+    margin-bottom: 0px;
+    margin-left: 0px;
+  }
+  .header img{
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+  }
+  .shopping-cart-icon{
+    margin-left: 0%;
+  }
+  .search-bar{
+    display: flex;
+    flex-direction: row;
+    height: 27px;
+    margin: 9px 20% 0px 20%;
+  }
+  .search-box{
+    padding-right: 140px;
+    padding-left: 6px;
+    padding-top: 0px;
+    border-top-left-radius: 5px;
+    border-bottom-left-radius: 5px;
+    border: 1.5px solid black;
+  }
+  .search-icon{
+    border-top-right-radius: 5px;
+    border-bottom-right-radius: 5px;
+    border: 1.5px solid black;
+  }
+  .login-signup{
+    margin-top: 9px;
+    margin-left: 10%;
+  }
+  .shopping-cart-icon{
+    margin-top: 9px;
+  }
+  

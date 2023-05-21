@@ -1,11 +1,11 @@
 import React from "react";
-import './Menu.css'
+import styles from './Menu.module.css'
 
 const Menu = () =>{
     return(
         <div>
             <nav>
-                <ul className="menu">
+                <ul className={styles.menu}>
                     <li><a className='active' href='#home'>Home</a></li>
                     <li><a href='#categories'>Categories</a></li>
                     <li><a href='#foodbybird'>Food by Bird</a></li>

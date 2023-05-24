@@ -10,7 +10,7 @@ const Header = () => {
       <nav>
         <ul className={styles.header}>
           <li>
-            <img src="images/Logo.png" alt="" className={styles.logo} />
+            <a href="App.js" alt=''><img src="images/Logo.png" alt="" className={styles.logo} /></a>
           </li>
           <li className={styles["search-bar"]}>
             <input type="text" placeholder="Search" className={styles["search-box"]}/>
@@ -25,8 +25,7 @@ const Header = () => {
           </li>
           <li className={styles["shopping-cart-icon"]}>
             <a href="#shoppingcarticon" alt="">
-            <ShoppingCartIcon sx={{ fontSize: 40 }} />
-
+              <ShoppingCartIcon sx={{ fontSize: 40 }} />
             </a>
           </li>
         </ul>

@@ -1,8 +1,8 @@
-import React from "react";
-import SearchIcon from "@mui/icons-material/Search";
 import AccountCircleIcon from "@mui/icons-material/AccountCircle";
+import SearchIcon from "@mui/icons-material/Search";
 import ShoppingCartIcon from "@mui/icons-material/ShoppingCart";
-import styles from './Header.module.css'
+import React from "react";
+import styles from './Header.module.css';
 
 const Header = () => {
   return (
@@ -34,4 +34,4 @@ const Header = () => {
   );
 };
 
-export default Header;
+export default Header;sdfsdfsdf

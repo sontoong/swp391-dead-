@@ -1,0 +1,58 @@
+.FoodInfo{
+    display: flex;
+    margin: 2rem;
+    height: 90%;
+}
+
+.FoodInfo a{
+    width: 30%;
+}
+
+.FoodInfo a :hover{
+    position: relative;
+    right: 1rem;
+    bottom: 1rem;
+    offset: 1rem;
+    box-shadow: rgba(180, 81, 81, 0.68) 10px 10px;
+    transition: all 0.3s ease;
+}
+
+.FoodInfo a img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    border-radius: 2rem;
+}
+
+.FoodInfo .Info{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    width: 50%;
+    font-family: cursive;
+    color: white;
+    padding: 2rem;
+    padding-bottom: 1rem;
+    background-color: rgb(231, 76, 60);
+    border-radius: 1rem;
+}
+
+.FoodInfo .Info p{
+    font-size: small;
+}
+
+.FoodInformation{
+    margin-top: 2rem;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+
+.BestSeller{
+    font-size: 4rem;
+    font-family: cursive; 
+    background-color: white; 
+    display: inline; 
+    border-radius: 2rem;
+    padding: 2rem;
+    box-shadow: rgba(180, 81, 81, 0.68) 10px 10px;
+}

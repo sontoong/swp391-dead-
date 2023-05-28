@@ -1,0 +1,22 @@
+.menu{
+    display: flex;
+    list-style: none;
+    background-color: rgb(231, 76, 60);
+    margin-top: 0px;
+    padding-bottom: 6px;
+    padding-top: 3px;
+}
+a{
+    text-decoration: none;
+    margin-left: 20px;
+    padding: 4px 6px 6px 3px;
+    color: white;
+    font-size: 15px;
+    font-family: cursive;
+
+}
+.menu li :hover{
+    background-color: rgba(44, 50, 163, 0.802);
+    color: orange;
+    padding-left: 6px;
+}
